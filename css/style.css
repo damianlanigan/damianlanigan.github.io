@@ -1,0 +1,300 @@
+body {
+  font-family: CabritoSans-NorMed;
+  color: white;
+  background-color: #22BBF6;
+}
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+hr {
+  border-color: #22ABE0;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 16px;
+  color: white;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  color: #42F9FF;
+}
+
+h1.logo-subhead {
+  color: #42F9FF;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+p.logo-subhead {
+  color: #676594;
+  margin-top: 47px;
+  margin-bottom: 50px;
+}
+
+a.download img {
+  -webkit-transition: all .5s ease-out;
+     -moz-transition: all .5s ease-out;
+      -ms-transition: all .5s ease-out;
+       -o-transition: all .5s ease-out;
+          transition: all .5s ease-out;
+  border-radius: 5px;
+  height: 40px;
+  width: 135px;
+}
+
+/*a.download img:hover {
+  box-shadow: 0px 2px 33px #03021A;
+}*/
+
+.faq a.download img {
+  margin-top: 2em;
+}
+
+p.info {
+  font-size: 12px;
+  text-align: right;
+}
+
+.faq a.download img:hover {
+  box-shadow: 0px 2px 33px #413D98;
+}
+
+.header-copy {
+  margin-top: 120px;
+}
+
+.haid-logo {
+  background-image: url("/images/logo_type.png");
+  background-size: 100% 100%;
+  width: 192px;
+  height: 204px;
+  background-repeat: no-repeat;
+}
+
+.haid-phone {
+  background-image: url("/images/phone.png");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  height: 384px;
+  width: 692px;
+  position: absolute !important;
+  right: -8px;
+  top: 40px;
+}
+
+.graph {
+  background-image: url("/images/graph.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 198px;
+  width: 940px;
+}
+
+.images {
+  background-size: 100% 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.how {
+  margin: 20px 0px 60px 0px;
+}
+
+.how:first-child {
+  margin-top: 0px;
+}
+
+.how h3 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.how p {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.range, .context, .past {
+  width: 226px;
+  height: 196px;
+  margin: 0 auto;
+}
+
+.range {
+  background-image: url("/images/section1.png");
+}
+
+.context {
+  background-image: url("/images/section2.png");
+}
+
+.past {
+  background-image: url("/images/section3.png");
+}
+
+.footer {
+  padding-top: 34px;
+  padding-bottom: 34px;
+  margin-top: 60px;
+}
+
+.footer a {
+  margin-right: 14px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition:border-bottom .2s;
+     -moz-transition:border-bottom .2s;
+      -ms-transition:border-bottom .2s;
+       -o-transition:border-bottom .2s;
+          transition:border-bottom .2s;
+}
+
+.footer a:last-child {
+  margin-right: 0;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #1F1E36;
+  -webkit-transition:border-bottom .4s;
+     -moz-transition:border-bottom .4s;
+      -ms-transition:border-bottom .4s;
+       -o-transition:border-bottom .4s;
+          transition:border-bottom .4s;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+  .haid-logo {
+    background-image: url("/images/logo_type@2x.png");
+  }
+  .haid-phone {
+    background-image: url("/images/phone@2x.png");
+  }
+  .graph {
+    background-image: url("/images/graph@2x.png");
+  }
+  .range {
+    background-image: url("/images/section1@2x.png");
+  }
+  .context {
+    background-image: url("/images/section2@2x.png");
+  }
+  .past {
+    background-image: url("/images/section3@2x.png");
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+  .faq:last-child {
+    float: right;
+  }
+}
+
+@media (max-width: 992px) {
+  .haid-phone {
+    margin-bottom: 50px;
+    /*background-position: 210px, 0px;*/
+    top: 10px;
+    right: -210px;
+  }
+  .header-copy {
+    margin-top: 80px;
+  }
+  .how p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .how {
+    padding: 0px 31px;
+  }
+  .faq:last-child {
+    float: right;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-copy {
+    margin-bottom: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+    margin-top: 60px;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .how {
+    margin: 20px 0px 50px 0px;
+  }
+
+  .how:first-child {
+    margin: 20px 0px 50px 0px;
+  }
+
+  .how:last-child {
+    margin: 20px 0px 100px 0px;
+  }
+
+  .how p {
+    font-size: 16px;
+  }
+
+  .hey-guys {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding-top: 0px;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  .footer a {
+    display: block;
+    padding-bottom: 14px;
+    margin-right: 0px;
+  }
+
+  .haid-phones {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .faq {
+    margin-bottom: 60px;
+  }
+
+  .faq:last-child {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .footer a:hover {
+    border: none;
+  }
+}
+
+
