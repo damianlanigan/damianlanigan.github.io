@@ -108,70 +108,21 @@ p.info {
   background-repeat: no-repeat;
 }
 
-.how {
-  margin: 20px 0px 60px 0px;
-}
-
-.how:first-child {
-  margin-top: 0px;
-}
-
-.how h3 {
+.coming-soon {
+  background-color: #316E85;
+  font-size: 14px;
+  color: white;
+  width: 208px;
+  height: 55px;
+  line-height: 58px;
   text-align: center;
-  margin-bottom: 6px;
+  border-radius: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
-.how p {
-  text-align: center;
-  margin-top: 0px;
-}
-
-.range, .context, .past {
-  width: 226px;
-  height: 196px;
-  margin: 0 auto;
-}
-
-.range {
-  background-image: url("/images/section1.png");
-}
-
-.context {
-  background-image: url("/images/section2.png");
-}
-
-.past {
-  background-image: url("/images/section3.png");
-}
-
-.footer {
-  padding-top: 34px;
-  padding-bottom: 34px;
-  margin-top: 60px;
-}
-
-.footer a {
-  margin-right: 14px;
-  border-bottom: 1px solid transparent;
-  -webkit-transition:border-bottom .2s;
-     -moz-transition:border-bottom .2s;
-      -ms-transition:border-bottom .2s;
-       -o-transition:border-bottom .2s;
-          transition:border-bottom .2s;
-}
-
-.footer a:last-child {
-  margin-right: 0;
-}
-
-.footer a:hover {
-  text-decoration: none;
-  border-bottom: 1px solid #1F1E36;
-  -webkit-transition:border-bottom .4s;
-     -moz-transition:border-bottom .4s;
-      -ms-transition:border-bottom .4s;
-       -o-transition:border-bottom .4s;
-          transition:border-bottom .4s;
+.mobile.haid-phone {
+  display: none;
 }
 
 @media 
@@ -253,6 +204,16 @@ p.info {
 
   .how:last-child {
     margin: 20px 0px 100px 0px;
+  }
+
+  .haid-phone {
+    display: none;
+  }
+
+  .mobile.haid-phone {
+    display: block;
+    position: relative !important;
+    right: 0;
   }
 
   .how p {
