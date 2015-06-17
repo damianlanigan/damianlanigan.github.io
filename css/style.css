@@ -91,7 +91,7 @@ p.info {
   width: 692px;
   position: absolute !important;
   right: -8px;
-  top: 40px;
+  top: 100px;
 }
 
 .graph {
@@ -161,7 +161,7 @@ p.info {
   .haid-phone {
     margin-bottom: 50px;
     /*background-position: 210px, 0px;*/
-    top: 10px;
+    top: 50px;
     right: -210px;
   }
   .header-copy {
