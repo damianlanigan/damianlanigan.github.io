@@ -14,7 +14,7 @@ hr {
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 26px;
 }
 
 h3 {
@@ -73,6 +73,7 @@ p.info {
 
 .header-copy {
   margin-top: 120px;
+  z-index: 2;
 }
 
 .haid-logo {
@@ -92,6 +93,7 @@ p.info {
   position: absolute !important;
   right: -8px;
   top: 100px;
+  z-index: 1;
 }
 
 .images {
@@ -101,7 +103,7 @@ p.info {
 }
 
 .coming-soon {
-  color: #316E85;
+  color: #242B43;
   line-height: 58px;
   text-transform: uppercase;
   letter-spacing: 4px;
