@@ -95,11 +95,10 @@ p.info {
 }
 
 .graph {
-  background-image: url("/images/graph.png");
+  background-image: url("/images/graph.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 198px;
-  width: 940px;
 }
 
 .images {
@@ -109,14 +108,8 @@ p.info {
 }
 
 .coming-soon {
-  background-color: #316E85;
-  font-size: 14px;
-  color: white;
-  width: 208px;
-  height: 55px;
+  color: #316E85;
   line-height: 58px;
-  text-align: center;
-  border-radius: 14px;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -135,7 +128,7 @@ p.info {
     background-image: url("/images/phone@2x.png");
   }
   .graph {
-    background-image: url("/images/graph@2x.png");
+    background-image: url("/images/graph@2x.jpg");
   }
   .range {
     background-image: url("/images/section1@2x.png");
@@ -145,15 +138,6 @@ p.info {
   }
   .past {
     background-image: url("/images/section3@2x.png");
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1000px;
-  }
-  .faq:last-child {
-    float: right;
   }
 }
 
@@ -169,6 +153,9 @@ p.info {
   }
   .how p {
     font-size: 14px;
+  }
+  .graph {
+    background-image: url("/images/graph_750.jpg");
   }
 }
 
